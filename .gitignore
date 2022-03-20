@@ -59,6 +59,5 @@ yarn-error.log*
 /.changelog
 .npm/
 reportgenerator/sample.pdf
-main.tf
 
 .terraform*
