@@ -1,9 +1,4 @@
 terraform {
-  backend "s3" {
-    bucket = "storefront-tfstate"    # Explicate, cannot use vars, avoid circular deps
-    key    = "c9-experiment.tfstate" # changing this key will require a state migration
-    region = "us-east-1"
-  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
